@@ -10,7 +10,7 @@ AOS.init({
     const modal = document.getElementById("videoModal");
   const iframe = document.getElementById("youtubeVideo");
   const videoURL =
-    "https://www.youtube.com/embed/aqz-KE-bpKQ?autoplay=1&mute=1"
+    "https://www.youtube.com/embed/Wq6NdxJ-rVU?si=xXxUeT5_tDIxIK8t"
 
   if (modal && iframe) {
     modal.addEventListener("show.bs.modal", () => {
