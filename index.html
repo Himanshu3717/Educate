@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educate - Online Learning Service</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <div class="logo-icon">
+        <span class="logo-b1">B</span>
+        <span class="logo-b2">B</span>
+      </div>
+      <span class="logo-text">Educate</span>
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav main-menu align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="#admissions">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+      </ul>
+
+      <div class="navbar-auth d-flex align-items-center">
+        <button class="btn btn-login me-2">log in</button>
+        <button class="btn btn-registration">Registration</button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="container text-center">
+        <h1 class="hero-headline" data-aos="fade-up">
+            Get The Best Online<br />Learning Service
+        </h1>
+
+        <p class="hero-subheadline" data-aos="fade-up" data-aos-delay="100">
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout. The point of using Lorem.
+        </p>
+
+        <button class="btn btn-cta" data-aos="fade-up" data-aos-delay="200">
+            Start a course
+        </button>
+
+        <!-- Video -->
+        <div class="video-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="video-wrapper">
+                <img
+                    src="https://images.unsplash.com/photo-1588072432836-e10032774350"
+                    alt="Learning video"
+                    class="video-preview"
+                />
+                <button class="play-button" data-bs-toggle="modal" data-bs-target="#videoModal">
+                    <svg width="70" height="70" viewBox="0 0 80 80">
+                        <circle cx="40" cy="40" r="40" fill="#6C5CE7" />
+                        <path d="M32 25L32 55L55 40L32 25Z" fill="#fff" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Decorative elements -->
+    <div class="decorative-element"></div>
+
+    <!-- Sunrise / Leaves -->
+    <img src="./assets/E-learning.png" alt="Decorative leaves" class="hero-sunrise" />
+</section>
+
+<!-- Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                      id="youtubeVideo"
+                      src=""
+                      allow="autoplay; encrypted-media; "
+                      allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- New Courses Section -->
+<section id="programs" class="courses-section">
+    <div class="container">
+  
+      <!-- Heading + Button -->
+      <div class="courses-header">
+        <h2 class="section-title" data-aos="fade-up">New Courses</h2>
+        <button class="btn btn-explore" data-aos="fade-up" data-aos-delay="100">
+          Explore courses
+        </button>
+      </div>
+  
+      <!-- Cards row -->
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="0">
+          <article class="course-card">
+            <div class="course-image-wrapper">
+              <img
+                src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+                alt="Native Mac Apps in Swift"
+                class="course-image"
+              />
+              <div class="course-tags">
+                <span class="badge-pill badge-dark">Software</span>
+                <span class="badge-pill badge-green">$79.00 USD</span>
+              </div>
+            </div>
+  
+            <div class="course-body">
+              <h3 class="course-title">Native Mac Apps in Swift</h3>
+              <p class="course-desc">
+                Take your dev skills to the next level with this ground-up tutorial on native Mac apps.
+              </p>
+  
+              <div class="course-meta">
+                <div class="meta-author">
+                  <img
+                    src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+                    class="author-avatar"
+                    alt="Author"
+                  />
+                  <span class="meta-text">by Annabelle Portar</span>
+                </div>
+                <div class="meta-lessons">
+                  <span class="meta-text">3 Lesson</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <article class="course-card">
+            <div class="course-image-wrapper">
+              <img
+                src="https://images.pexels.com/photos/8082338/pexels-photo-8082338.jpeg"
+                alt="Fundamentals of Interior Design"
+                class="course-image"
+              />
+              <div class="course-tags">
+                <span class="badge-pill badge-dark">Art &amp; Design</span>
+                <span class="badge-pill badge-green">Free</span>
+              </div>
+            </div>
+  
+            <div class="course-body">
+              <h3 class="course-title">Fundamentals of Interior Design</h3>
+              <p class="course-desc">
+                A beginner's guide to designing or renovating breathtaking interior spaces that pop.
+              </p>
+  
+              <div class="course-meta">
+                <div class="meta-author">
+                  <img
+                    src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+                    class="author-avatar"
+                    alt="Author"
+                  />
+                  <span class="meta-text">by Annabelle Portar</span>
+                </div>
+                <div class="meta-lessons">
+                  <span class="meta-text">3 Lesson</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- How it Works Section -->
+<section id="courses" class="how-section">
+    <div class="container text-center">
+  
+      <h2 class="how-title" data-aos="fade-up">
+        How does Educate work?
+      </h2>
+  
+      <div class="row justify-content-center how-steps" data-aos="fade-up" data-aos-delay="100">
+        <!-- Step 1 -->
+        <div class="col-md-3 col-10 mb-4 mb-md-0">
+          <div class="how-step">
+            <div class="step-circle">1</div>
+            <p class="step-text">
+              Browse course from our<br />
+              expert contributor
+            </p>
+          </div>
+        </div>
+  
+        <!-- Curve -->
+        <div class="col-md-1 d-none d-md-flex align-items-center justify-content-center">
+          <div class="step-curve"></div>
+        </div>
+  
+        <!-- Step 2 -->
+        <div class="col-md-3 col-10 mb-4 mb-md-0">
+          <div class="how-step">
+            <div class="step-circle">2</div>
+            <p class="step-text">
+              Purchase quickly and<br />
+              securely
+            </p>
+          </div>
+        </div>
+  
+        <!-- Curve -->
+        <div class="col-md-1 d-none d-md-flex align-items-center justify-content-center">
+          <div class="step-curve step-curve--up"></div>
+        </div>
+  
+        <!-- Step 3 -->
+        <div class="col-md-3 col-10">
+          <div class="how-step">
+            <div class="step-circle">3</div>
+            <p class="step-text">
+              Then start learning<br />
+              right away
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <p class="how-subtitle" data-aos="fade-up" data-aos-delay="150">
+        Join over 1,000 satisfied learners today.
+      </p>
+  
+      <button class="btn btn-explore" data-aos="fade-up" data-aos-delay="200">
+        Explore courses
+      </button>
+    </div>
+  </section>
+
+  
+
+  <!-- 4th section -->
+
+  <!-- Seat Price Section -->
+<section id="admissions" class="seat-section">
+    <div class="container">
+      <div class="row align-items-start">
+        <!-- Left content -->
+        <div class="col-md-5 mb-4 mb-md-0">
+          <h2 class="seat-title" data-aos="fade-up">Get the Seat price</h2>
+          <p class="seat-text" data-aos="fade-up" data-aos-delay="50">
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout.
+          </p>
+  
+          <div class="seat-feature" data-aos="fade-up" data-aos-delay="100">
+            <span class="feature-dot"></span>
+            <div>
+              <h4 class="feature-title">World class</h4>
+              <p class="feature-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting.
+              </p>
+            </div>
+          </div>
+  
+          <div class="seat-feature" data-aos="fade-up" data-aos-delay="150">
+            <span class="feature-dot"></span>
+            <div>
+              <h4 class="feature-title">Affordable</h4>
+              <p class="feature-desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting.
+              </p>
+            </div>
+          </div>
+  
+          <a href="#" class="seat-link" data-aos="fade-up" data-aos-delay="200">
+            Learn more
+          </a>
+        </div>
+  
+        <!-- Right table -->
+        <div class="col-md-7">
+          <div class="seat-table-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <table class="table seat-table mb-0">
+              <thead>
+                <tr>
+                  <th>SEAT</th>
+                  <th>PRICE</th>
+                  <th>STATUS</th>
+                </tr>
+              </thead>
+              <tbody id="seatTableBody">
+                <!-- JS will inject rows here -->
+              </tbody>
+            </table>
+          </div>
+          <p id="seatError" class="seat-error text-danger mt-2 d-none">
+            Failed to load seat data. Please try again.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 5th section -->
+
+  <!-- Testimonial Section -->
+<section id="testimonial" class="testimonial-section">
+    <div class="container">
+      <h2 class="testimonial-title text-center" data-aos="fade-up">
+        What Our Student Says
+      </h2>
+  
+      <div class="row align-items-center testimonial-row" data-aos="fade-up" data-aos-delay="100">
+        <!-- Left image / shapes -->
+        <div class="col-md-5 mb-4 mb-md-0 text-md-start text-center">
+          <div class="testimonial-image-wrap">
+            <div class="img-bg-rect"></div>
+            <div class="img-bg-card"></div>
+            <img
+              src="https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg"
+              alt="Student"
+              class="testimonial-image"
+            />
+          </div>
+        </div>
+  
+        <!-- Right content (from API) -->
+        <div class="col-md-7">
+          <div class="testimonial-card">
+            <div class="quote-icon">&ldquo;</div>
+            <p id="testimonialComment" class="testimonial-text">
+              <!-- API comment -->
+            </p>
+  
+            <div id="testimonialStars" class="testimonial-stars">
+              <!-- Stars -->
+            </div>
+  
+            <div class="testimonial-author">
+              <h4 id="testimonialName" class="author-name">—</h4>
+              <p class="author-location">Poland</p>
+            </div>
+  
+            <!-- Dots navigation -->
+            <div class="testimonial-dots">
+              <button class="dot active" data-index="0"></button>
+              <button class="dot" data-index="1"></button>
+              <button class="dot" data-index="2"></button>
+            </div>
+          </div>
+  
+          <p id="testimonialError" class="seat-error text-danger mt-2 d-none">
+            Failed to load testimonials. Please try again.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
